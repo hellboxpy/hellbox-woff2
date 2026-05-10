@@ -15,5 +15,12 @@ with Hellbox("webfonts") as task:
 ## Installation
 
 ```sh
-pip install hellbox-woff2
+hell add hellbox-woff2
+```
+
+## Development
+
+```sh
+uv sync
+uv run pytest
 ```
